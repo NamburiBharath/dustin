@@ -13,8 +13,8 @@ spec:
         app: dustin
     spec:
       containers:
-        - name: tyrion
-          image: bharath07/dustin:latest
+        - name: dustin
+          image: bharath07/dustin
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
