@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: dustin
-          image: bharath07/dustin
+          image: bharath07/dustin:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
