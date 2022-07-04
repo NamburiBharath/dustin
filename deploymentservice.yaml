@@ -1,8 +1,8 @@
-apiVersion: apps/v1
-kind: Deployment # Kubernetes resource kind we are creating
-metadata:
+ piVersion: apps/v1
+ kind: Deployment # Kubernetes resource kind we are creating
+ metadata:
   name: dustin
-spec:
+ spec:
   selector:
     matchLabels:
       app: dustin
